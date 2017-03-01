@@ -26,42 +26,42 @@
                     <h3>- Salon -</h3>
                     <p>每周一次，分享技术或有趣的生活经历~</p>
                 </div>
-                <img src="../img/salon.png">
+                <img src="../images/salon.png">
             </div>
             <div class="photo-wrapper">
                 <div class="photo-theme">
                     <h3>- Free Talk -</h3>
                     <p>扁平化的组织结构，让大家不论资历，都可以对项目和工作室提出自己的想法~</p>
                 </div>
-                <img src="../img/freeTalk.png">
+                <img src="../images/freeTalk.png">
             </div>
             <div class="photo-wrapper">
                 <div class="photo-theme">
                     <h3>- Predecessors -</h3>
                     <p>小百合前辈们遍布南大各专业、BAT等国内企业和世界各地的名校，给你指导给你爱~</p>
                 </div>
-                <img src="../img/predecessors.png">
+                <img src="../images/predecessors.png">
             </div>
             <div class="photo-wrapper">
                 <div class="photo-theme">
                     <h3>- Project -</h3>
                     <p>以技术搭起桥梁，使得新人能够轻松上手技术，大家迅速地互相熟悉起来~</p>
                 </div>
-                <img src="../img/project.png">
+                <img src="../images/project.png">
             </div>
             <div class="photo-wrapper">
                 <div class="photo-theme">
                     <h3>- Hang Out -</h3>
                     <p>大家一起刷夜写过代码准备过考试，也一起刷过首映浪浪浪！更有一晚上吃三顿的经历_(:зゝ∠)_</p>
                 </div>
-                <img src="../img/hangOut.png">
+                <img src="../images/hangOut.png">
             </div>
             <div class="photo-wrapper">
                 <div class="photo-theme">
                     <h3>- Couple -</h3>
                     <p>小百合，一个脱单率高于百合网的神奇工作室~</p>
                 </div>
-                <img src="../img/couple.png">
+                <img src="../images/couple.png">
             </div>
         </div>
     </div>
@@ -74,21 +74,21 @@
         </div>
         <div class="leader-group">
             <div class="leader">
-                <img src="../img/head_li.png">
+                <img src="../images/head_li.png">
                 <h2>技术组</h2>
                 <hr>
                 <h4>现任负责人 - XXX</h4>
                 <p>负责产品的代码实现<br>熟悉iOS或者Android开发或者Web后端的<br>代码实现以及服务器的维护使用</p>
             </div>
             <div class="leader">
-                <img src="../img/head_c.png">
+                <img src="../images/head_c.png">
                 <h2>美工组</h2>
                 <hr>
                 <h4>现任负责人 - XXX</h4>
                 <p>负责产品界面、交互设计，<br>以及前端代码的实现<br>熟悉平面设计，及HTML/CSS/JS等语言</p>
             </div>
             <div class="leader">
-                <img src="../img/head_z.png">
+                <img src="../images/head_z.png">
                 <h2>策划组</h2>
                 <hr>
                 <h4>现任负责人 - XXX</h4>
@@ -97,7 +97,7 @@
         </div>
     </div>
 </div>
-<div class="page-border"></div>
+<div class="page-border border2"></div>
 <div class="join">
     <div class="container text-center">
         <div class="join-head">
@@ -106,36 +106,48 @@
             <p>Come on. Just stay with us.</p>
         </div>
         <div class="info">
-            <div class="join-left">
-                <form class="fill-info">
+            <div class="join-left col-md-6">
+                <div class="form-group">
                     <label for="name">*姓名</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
                     <label for="number">*学号</label>
-                    <input type="text" id="number" name="number">
+                    <input type="text" class="form-control" id="number" name="number">
+                </div>
+                <div class="form-group">
                     <label for="email">*邮箱</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
                     <label for="phone">*手机</label>
-                    <input type="text" id="phone" name="phone">
-                    <label>*意愿</label>
-                    <select id="group" name="depart">
+                    <input type="text" class="form-control" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="group">*意愿</label>
+                    <select id="group" class="form-control" name="depart">
                         <option>技术组</option>
                         <option>美工组</option>
                         <option>策划组</option>
                     </select>
-                </form>
+                </div>
             </div>
-            <div class="join-right">
-                <form class="fill-info">
-                    <label for="name">个人经历</label>
-                    <textarea id="intro" name="expr"></textarea>
-                    <label for="name">兴趣爱好</label>
-                    <textarea id="hobby" name="hobby"></textarea>
-                </form>
+            <div class="join-right col-md-6">
+                <div class="form-group">
+                    <label for="intro">个人经历</label>
+                    <textarea id="intro" class="form-control" rows="7" name="expr"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="hobby">兴趣爱好</label>
+                    <textarea id="hobby" class="form-control" rows="7" name="hobby"></textarea>
+                </div>
             </div>
             <input type="submit" class="submit-btn" id="submit" value="提交">
         </div>
     </div>
 </div>
-
+<footer class="container-fluid text-center buttom">
+    <p>Copyright © 2017. LilyStudio All rights reserved.</p>
+</footer>
 </body>
 </html>

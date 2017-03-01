@@ -7,7 +7,7 @@
 .showcase {
     padding: 50px 0;
     width: 100%;
-    background: url("../img/card.png") center;
+    background: url("../images/card.png") center;
     background-size: cover;
 }
 .showcase h2 {
@@ -92,8 +92,12 @@
 /*join us*/
 .join {
     width: 100%;
-    background: url("../img/card.png") center;
+    background: url("../images/card2.png") center;
     background-size: cover;
+}
+.info {
+    margin-top: 60px;
+    margin-bottom: 90px;
 }
 .join-head {
     margin-top: 150px;
@@ -110,57 +114,46 @@
 .join-head p {
     font-size: 20px;
 }
-.join-left, .join-right {
+.form-group label {
     float: left;
-    margin-top: 50px;
-    width: 45%;
 }
-.join-left {
-    padding-right: 10%;
-}
-.fill-info label {
-    display: block;
-    padding-bottom: 5px;
-    text-align: left;
-}
-.fill-info input[type=text], .fill-info select, .fill-info textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px;
+.form-group textarea {
+    resize: none;
+    outline: none;
     border-color: #f68383;
-    border-bottom-width: 1px;
-    -webkit-border-radius: 5px; /* Safari 和 Chrome */
-    -moz-border-radius: 5px; /* Firefox */
-    border-radius: 5px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
-.fill-info select {
+.form-group input {
     height: 40px;
-    width: 100%;
+    outline: none;
+    border-color: #f68383;
 }
-.fill-info textarea {
-    height: 180px;
+.form-group select {
+    height: 40px;
+    outline: none;
+    border-color: #f68383;
+}
+.join-right .form-group {
+    padding-bottom: 10px;
 }
 .submit-btn {
-    width: 120px;
-    height: 50px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    z-index: 3;
-    float: right;
-    background-color: #f68383;
-    -webkit-border-radius: 10px; /* Safari 和 Chrome */
-    -moz-border-radius: 10px; /* Firefox */
+    position: relative;
+    vertical-align: middle;
+    width: 170px;
+    height: 60px;
     border-radius: 10px;
-    -webkit-transition: .6s;
-    -moz-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s;
+    margin-top: 40px;
+    border: none;
+    background-color: #fdc9c9;
+    font-size: 24px;
+    outline: none;
+}
+
+.buttom {
+    background-color: #f68383;
+}
+.buttom p {
+    font-size: 20px;
+    padding: 20px;
 }
 
 
@@ -168,5 +161,13 @@
 .page-border {
     margin-top: -30px;
     height: 80px;
-    background: url("../img/pageBorder.png");
+    background: url("../images/pageBorder.png");
+}
+.border2 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-bottom: -30px;
 }
